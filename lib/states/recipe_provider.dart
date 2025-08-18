@@ -7,7 +7,7 @@ class RecipeProvider extends ChangeNotifier {
   List<Recipe> _allRecipes = [];
   List<Recipe> _filteredRecipes = [];
 
-  List<Recipe> get recipes{
+  List<Recipe> get recipes {
     return _filteredRecipes;
   }
 
