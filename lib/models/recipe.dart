@@ -12,7 +12,7 @@ class Recipe {
   factory Recipe.fromJson(Map<String, dynamic> json) {
     return Recipe(
       id: json['id'],
-      name: json['name'] ,
+      name: json['name']??"" ,
       rating: (json['rating'] as num).toDouble(),
       image: json['image'] ,
     );
