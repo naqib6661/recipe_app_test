@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:task/states/recipe_provider.dart';
+import 'state/recipe_provider.dart';
 import 'screens/search_page.dart';
 
 void main() {
@@ -18,6 +18,11 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+<<<<<<< HEAD
+=======
+      debugShowCheckedModeBanner: false,
+
+>>>>>>> 6ade1f8 (Added search box with live search and  load data from api)
       home:  SearchPage(),
     );
   }
